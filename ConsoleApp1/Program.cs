@@ -75,6 +75,8 @@ namespace ConsoleApp1
         //}
         static void Main(string[] args)
         {
+            while (true)
+                ;
             var sList = new List<string>();
 
             sList.Add("10");
