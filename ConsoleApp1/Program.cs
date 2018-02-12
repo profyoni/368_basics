@@ -6,32 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Fraction
-    {
-        private int n, d;
-
-        public Fraction(int n, int d)
-        {
-            this.n = n;
-            this.d = d;
-        }
-        public static implicit operator Fraction(int n) 
-        {
-            return new Fraction(n, 1);
-        }
-
-        public override String ToString()
-        {
-            return $"{n} / {d}";
-        }
-
-        public static Fraction operator *(Fraction f1, Fraction f2)
-        {
-            return new Fraction(f1.n * f2.n, f1.d * f2.d);
-        }
-
-
-    }
     class Program
     {
         public static void Swap(ref int a, ref int b)
