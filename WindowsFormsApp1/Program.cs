@@ -8,6 +8,8 @@ namespace WindowsFormsApp1
 {
     static class Program
     {
+        const int x = 7;
+        static readonly int d = 8;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
